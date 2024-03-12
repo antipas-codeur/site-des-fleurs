@@ -1,0 +1,59 @@
+*{
+
+margin:0px;}
+
+
+
+.ia img
+{
+width:30px;
+	height:20px;
+	margin:20px;
+
+}
+
+.ie 
+{ display:inline-block;
+padding-top:20px;
+text-decoration:none;
+	color:black;
+}
+.ik img
+{
+width:30px;
+	height:20px;
+	margin:10px;
+	margin-left:650px;
+	padding-top:10px;
+}
+.iv
+{
+	width:30px;
+	height:20px;
+	margin:10px;
+	margin-left:520px;
+	padding-top:12px;
+font-size:32px;
+	color:rgb(111,93,76);
+}
+
+
+.iy
+{
+	margin-top:30px;
+	font-size:20px;
+
+text-align:center;
+
+}
+.iz
+{
+	
+width:650px;
+margin:auto;
+	padding-top:70px;
+	
+}
+.team{
+	margin-top:30px;
+}

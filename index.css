@@ -1,0 +1,328 @@
+*{
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(255, 251, 251);
+}
+
+/* DEBUT DE LA PARTIE MENU 2 */
+
+  .menu2{
+    /* display: none; */
+  }
+ 
+
+
+/*  FIN DE LA PARTIE MENU 2*/
+/* .nav-link{
+  color: rgb(251, 247, 247);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-cc{
+  height: 500px;
+  background: url(images/083fefdf-53ea-44f4-95c3-6a6337294d0e.jfif);
+}
+.input-bb{
+  margin:auto;
+  margin-top:200px;
+  width:600px; 
+} */
+
+.form{
+  background: transparent;
+  border-radius: 50px;
+  width: 400px;
+margin-left:100px;
+}
+h3{
+  margin-top: 50px;
+  color: white;
+  /* align-items: center;
+  margin-left:500px;
+  margin-top: 30px; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form::placeholder{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding:50px;
+  font-size: 20px;
+
+}
+img{
+  margin-top:40px;
+}
+.container{
+  padding: 20px;
+  padding-bottom:30px;
+}
+.col{
+  border: 1px solid black;
+}
+.bouton{
+  margin-left: 500px;
+  margin-top: 20px;
+  
+  background-color: rgb(80, 86, 90);
+}
+.bouton a{
+  color: white;
+}
+
+ .navbar-ff{
+  background-color: rgb(80, 188, 188);
+  padding: 15px;
+  height:50px;
+ }
+ nav h4{
+  margin-left:60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+ }
+ .Commander{
+  font-size: 20px;
+  color: rgb(243, 240, 240);
+  background-color: brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width:300px;
+  margin-left:30px;
+ }
+
+ .achat{
+  font-size: 20px;
+  width: 300px;
+  color: black;
+  background-color: rgb(136, 138, 140);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left:30px;
+ }
+ .produit{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top:20px;
+  padding: 30px;
+  margin-left:30px;
+ }
+ .deroulant{
+  color: brown;
+ }
+ .footer{
+  background-color: black;
+  margin-top:300px;
+  height:100px;
+ }
+ .footer-q{
+  margin-left:1000px;
+ }
+ .footer-p{
+  margin-top:50px;
+  color: white;
+ 
+ }
+ .available{
+  background-color: rgb(176, 180, 184);
+ }
+ .header {
+  background-color: aqua;
+  background: url(images/marguerite3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:700px;
+  font-size:20px;
+  opacity: 2;
+  transition:all 0.9s;
+ }
+
+ .header:hover {
+  background: url(images/orchidee2.jpg);
+ }
+ .titre-p{
+  margin-top:150px;
+  margin-left:30px;
+ }
+ .plus{
+  border: 1px solid white;
+  border-radius: 50px;
+ width: 200px;
+ margin-left:30px;
+ margin-top: 30px;
+ padding-left:30px;
+ }
+ header p a{
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+ }
+ .voir{
+  margin: auto;
+  margin-top: 20px;
+ }
+ h5{
+    text-align: center;
+    color: black;
+    width:150px;
+ }
+ .form-submit{
+  margin-top: 40px;
+ }
+ footer{
+  background: url(images/roses-roses-fond-noir_955152-1274.jpg);
+  background-size: cover;
+  opacity:1;
+ }
+ ul li a{
+  transition:all 0.9s;
+ }
+
+ ul li{
+  font-size: 17px;
+ }
+ ul li a:hover{
+  transform: scale(1.1);
+ 
+ }
+ .bloc-2 img{
+  transition:all 0.2s;
+ }
+ .bloc-2 img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+ }
+ .logo{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid rgb(239, 236, 236);
+  border-radius: 30px;
+  width: 100px;
+  padding: 2px 0;
+  padding-left: 16px;
+ }
+ .bloc-2 p{
+  font-weight: bolder;
+ }
+  h5{
+  text-align: center;
+  margin-left:560px;
+ }
+
+ .tournesol, .rose, .lavande, .orchidee, .marguerite, .muguet{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Pour le nbre de colonnes et la largeur entre chacune d'elles */
+  grid-template-rows: 300px; /* Pour le nbre de rangées et la hauteur de chacune d'entre elles */
+  gap: 15px;
+  padding: 20px;
+  margin-bottom: 30px ;
+}
+.tournesol img,
+.rose img, .lavande img, .orchidee img, .marguerite img, .muguet img {
+  width: 100%;
+  height: 100%;
+  /*Pour permettre aux images de respecter les dimensions de la grid CSS*/
+  object-fit: cover; 
+}
+h5{
+  text-align: center;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.nav-kk{
+  height: 10vh;
+  font-size: x-large;
+  color: white;
+  background-color: rgb(111, 180, 180) ;
+}
+
+nav ul li a{
+  font-size: 15px;
+}
+section a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+  font-size: 5px;
+  background-color: black;
+margin-top:200px;
+}
+@media  only screen and (max-width:600px) and (orientation:portrait) {
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+.footer-q{
+margin-left:1000px;
+}
+.rose a:hover{
+transform:rotateY(180);
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1),
+0 20px 16px rgba(0, 0, 0, 0.1);
+}
+section a img{
+  transition:all 0.2s;
+}
+
+section a img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+ 
+/* #check{
+  display: none;
+}
+ul.menu2{
+   display:flex ; 
+   margin-right: 20px;
+   /* transform: translateY(-350px); 
+  margin-left:250px;
+  margin-top:-90px;
+  background-color: rgb(17, 60, 60);
+  color:rgb(41, 121, 116);
+  padding: 30px 30px;
+  transition: .3s; 
+}
+ul li{
+  margin-right:25px;
+}
+
+.menu2{
+  display: none;
+
+ 
+  padding: 30px 10px;
+}
+.check{
+  display: none;
+  margin-left:120px;
+  margin-top: -35px;
+}
+@media screen and (max-width:1200px) {
+  /* .check{
+    display: block;
+  }
+  #check:checked ~ ul.menu2{
+    background-color:rgb(17, 60, 60);
+    display:block;
+    transform: translateY(35px);
+  } *
+  #check{
+    display: flex;
+  }
+} */
+.bloc-2 s h6{
+  text-decoration: line-through;
+}
+.panier{
+  margin-top:100px;
+}
